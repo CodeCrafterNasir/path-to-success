@@ -66,14 +66,25 @@ table {
 }
 
 /* Global Styles */
-* {
+* 
+{
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+
 }
 
+/* .container {
+	max-width: 1200px;
+	margin: 0 auto;
+} */
+
 body {
+	/* height: 100vh; */
 	font-family: 'Inter', sans-serf;
 	line-height: 1.6;
 	background-color: var(--Lavender);
+	flex-direction: column; 
 }
 
 h1, h2 {
@@ -95,16 +106,19 @@ h4 {
 
 /* Header Styles */
 header {
+max-width: 900px;
+	margin: 0 auto;
+	padding: 2rem 1.5rem;
 	background-color: var(--Purple);
-	text-align: center;
-	padding: 1.5rem 0;
+
 	
 }
 
 header > h1 {
 	font-size: 3em;
-	text-align: center;
-	padding-top: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 2rem 1.5rem;
 }
 
 #title {
@@ -159,7 +173,7 @@ nav a:hover {
 
 /* Main Content */
 main {
-	max-width: 1200px;
+	max-width: 900px;
 	margin: 0 auto;
 	padding: 2rem 1.5rem;
 	background-color: var(--Purple);

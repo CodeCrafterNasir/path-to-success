@@ -98,7 +98,7 @@ header {
 	background-color: var(--Purple);
 	text-align: center;
 	padding: 1.5rem 0;
-	padding-bottom: ;
+	
 }
 
 header > h1 {
@@ -189,13 +189,75 @@ main {
 .card-h3 {
 	color: var(--Yellow);
 	padding-bottom: 15px;
-	padding-top: -5px;
 }
 
 .card-h4 {
 	color: var(--Lavender);
 }
 
-.why-choose-use {
+#why-choose-us {
 	background-color: var(--Pink);
+	padding-left: 15px;
+	text-align: center;
+	
+}
+
+.why-boxes{
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1.5rem;
+	padding: 0;
+	margin: 2rem 0 0;
+
+}
+
+.box {
+	padding: 2rem 1rem;
+	border-radius: 12px;
+	font-weight: 600;
+	font-size: 1.1rem;
+}
+
+.teal {
+	background-color: var(--Teal);
+}
+
+.lavender{
+	background-color: var(--Lavender);
+}
+
+.yellow {
+	background-color: var(--Yellow);
+}
+
+.white {
+	background-color: var(--White);
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	background-color: var(--White);
+}
+
+#take-the-first-step {
+	background-color: var(--Pink);
+	color: var(--White);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#take-the-first-step button{
+	padding: 20px 20px;
+	margin-top: auto;;
+}
+
+footer, a{
+	background-color: var(--Purple);
+	color: var(--White);
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto auto;
+
 }

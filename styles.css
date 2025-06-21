@@ -143,3 +143,31 @@ p, a, li, button {
 }
 
 
+#why-choose-us {
+	background-color: var(--Pink);
+}
+
+.why-boxes {
+	display: grid;
+	grid-template-columns: repeat(1fr 1fr 1fr 1fr);
+}
+
+.teal {
+	background-color: var(--Teal);
+}
+
+.lavender {
+	background-color: var(--Lavender);
+}
+
+.yellow {
+	background-color: var(--Yellow);
+}
+
+.white {
+	background-color: var(--White);
+}
+
+thead {
+		background-color: var(--Yellow);
+}

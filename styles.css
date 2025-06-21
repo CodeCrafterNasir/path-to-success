@@ -125,12 +125,14 @@ section h4 {
 h2 {
   font-size: 2em;
   color: var(--White);  
+  margin-left: 15px;
 }
 
 h3 {
   font-size: 1.5em;
   font-family: var(--font-main);
   color: var(--Yellow);
+  margin-left: 15px;
 }
 
 h4 {
@@ -142,32 +144,91 @@ p, a, li, button {
   font-family: var(--font-main);
 }
 
+.card table {
+	border: 2px solid var(--Yellow);
+	width: 100%;
+	margin-top: 1rem;
+}
+
+.card th, .card td {
+	padding: 1rem;
+	text-align: left;
+	border: 1px solid var(--Yellow);
+}
+
 
 #why-choose-us {
 	background-color: var(--Pink);
+	padding: 1rem;	
+	
 }
 
 .why-boxes {
 	display: grid;
-	grid-template-columns: repeat(1fr 1fr 1fr 1fr);
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1rem;
+}
+
+.box {
+	aspect-ratio: 2 / 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	border-radius: 0.5;
 }
 
 .teal {
 	background-color: var(--Teal);
+	border-radius: 15px;	
 }
 
 .lavender {
 	background-color: var(--Lavender);
+	border-radius: 15px;
 }
 
 .yellow {
 	background-color: var(--Yellow);
+	border-radius: 15px;
 }
 
 .white {
 	background-color: var(--White);
+	border-radius: 15px;
 }
 
 thead {
 		background-color: var(--Yellow);
+}
+
+
+#cta {
+	text-align: center;
+	background-color: var(--Pink);
+	color: var(--White);
+}
+
+#cta button {
+	padding: 20px 30px;
+	align-self: center;
+	border-radius: 10px;
+	box-shadow: #1E1E1E;
+}
+
+
+footer {
+	padding: 30px;
+	align-items: center;
+	color: var(--White);
+	gap: 1rem;
+}
+
+footer a {
+	color: var(--White);
+	margin-left: 2rem;
+}
+
+footer p {
+	text-align: center;
 }
